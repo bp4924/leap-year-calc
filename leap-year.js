@@ -13,11 +13,11 @@ function isLeapYear(year) {
   return result;
 }
 
-let startYear = 1998;
+let startYear = 1898;
 const incrementYears = 1;
 const spanYears = 15;
+
 for (let i = 0; i <= spanYears; i++) {
   startYear += incrementYears;
-  let year = startYear;
-  console.log(`${year} ` + isLeapYear(year));
+  console.log(`${startYear} ` + isLeapYear(startYear));
 }
